@@ -2,5 +2,5 @@
 
 az group create --name upk --location westeurope
 
-# Deploy with YAML template
+Deploy with YAML template
 az container create --resource-group upk --file deployments.yaml
